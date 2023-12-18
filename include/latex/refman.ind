@@ -1,0 +1,88 @@
+\begin{theindex}
+
+  \item {AddUser}
+    \subitem {UsersBase}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Calculate}
+    \subitem {Calculator}, \hyperpage{5}
+  \item {Calculator}, \hyperpage{5}
+    \subitem {Calculate}, \hyperpage{5}
+  \item {Calculator.h}, \hyperpage{17}
+  \item {Comunicator}, \hyperpage{6}
+    \subitem {CreateSocket}, \hyperpage{6}
+    \subitem {isAutorized}, \hyperpage{7}
+    \subitem {WaitClient}, \hyperpage{7}
+  \item {Comunicator.h}, \hyperpage{18}
+  \item {CreateSocket}
+    \subitem {Comunicator}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Error}
+    \subitem {Logger}, \hyperpage{8}
+
+  \indexspace
+
+  \item {getPassword}
+    \subitem {UsersBase}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Info}
+    \subitem {Logger}, \hyperpage{9}
+  \item {Initialize}
+    \subitem {Logger}, \hyperpage{9}
+    \subitem {Server}, \hyperpage{11}
+  \item {isAutorized}
+    \subitem {Comunicator}, \hyperpage{7}
+  \item {isHasUser}
+    \subitem {UsersBase}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Logger}, \hyperpage{8}
+    \subitem {Error}, \hyperpage{8}
+    \subitem {Info}, \hyperpage{9}
+    \subitem {Initialize}, \hyperpage{9}
+    \subitem {Warning}, \hyperpage{9}
+  \item {Logger.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {ParseCmdLine}
+    \subitem {Server}, \hyperpage{11}
+  \item {ParseFile}
+    \subitem {UsersBase}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Run}
+    \subitem {Server}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Server}, \hyperpage{10}
+    \subitem {Initialize}, \hyperpage{11}
+    \subitem {ParseCmdLine}, \hyperpage{11}
+    \subitem {Run}, \hyperpage{12}
+  \item {Server.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {UsersBase}, \hyperpage{12}
+    \subitem {AddUser}, \hyperpage{13}
+    \subitem {getPassword}, \hyperpage{14}
+    \subitem {isHasUser}, \hyperpage{14}
+    \subitem {ParseFile}, \hyperpage{14}
+  \item {UsersBase.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {WaitClient}
+    \subitem {Comunicator}, \hyperpage{7}
+  \item {Warning}
+    \subitem {Logger}, \hyperpage{9}
+
+\end{theindex}

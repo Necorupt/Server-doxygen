@@ -1,0 +1,120 @@
+\hypertarget{classServer}{}\doxysection{Класс Server}
+\label{classServer}\index{Server@{Server}}
+
+
+Класс \mbox{\hyperlink{classServer}{Server}}.  
+
+
+
+
+{\ttfamily \#include $<$Server.\+h$>$}
+
+
+
+Граф связей класса Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classServer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classServer_aafaf5f6811be61fdb1845b90168f862d}{Parse\+Cmd\+Line}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Метод Parse\+Cmd\+Line для парсинга \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classServer_a2facf2b56af4e95c599eabf9f0651fb5}{Initialize}} ()
+\begin{DoxyCompactList}\small\item\em Метод Initialize для инициализации \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classServer_a696259b475a6e10bd029333c07626b21}{Run}} ()
+\begin{DoxyCompactList}\small\item\em Метод Run для запуска и прослушки сообщений \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServer_a7a6e604a0713de4c0f215625b750d0f4}\label{classServer_a7a6e604a0713de4c0f215625b750d0f4}} 
+std\+::string {\bfseries get\+Next\+Arg} (int argc, char $\ast$$\ast$argv)
+\item 
+\mbox{\Hypertarget{classServer_af65cb7103bc25779e450e37c7dd2b3fb}\label{classServer_af65cb7103bc25779e450e37c7dd2b3fb}} 
+bool {\bfseries is\+Number} (std\+::string \+\_\+str)
+\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServer_a2c79f0878303d16867448ca87b22a79f}\label{classServer_a2c79f0878303d16867448ca87b22a79f}} 
+std\+::string {\bfseries m\+\_\+users\+Base\+Path}
+\item 
+\mbox{\Hypertarget{classServer_a9c152f5c421a9f10ad36a62cc4e10786}\label{classServer_a9c152f5c421a9f10ad36a62cc4e10786}} 
+int {\bfseries m\+\_\+target\+Port}
+\item 
+\mbox{\Hypertarget{classServer_ade859c40ac2f256ceaa59fe36d3a8673}\label{classServer_ade859c40ac2f256ceaa59fe36d3a8673}} 
+std\+::string {\bfseries m\+\_\+log\+File\+Path}
+\item 
+\mbox{\Hypertarget{classServer_a1ed3642fbec4a37bd1dee4923d10f421}\label{classServer_a1ed3642fbec4a37bd1dee4923d10f421}} 
+\mbox{\hyperlink{classUsersBase}{Users\+Base}} {\bfseries m\+\_\+users\+Base}
+\item 
+\mbox{\Hypertarget{classServer_a79f685fd51b13d5dcd113d543d216549}\label{classServer_a79f685fd51b13d5dcd113d543d216549}} 
+\mbox{\hyperlink{classComunicator}{Comunicator}} {\bfseries m\+\_\+communicator}
+\item 
+\mbox{\Hypertarget{classServer_a3284803d18b3df89df5817c10c05474f}\label{classServer_a3284803d18b3df89df5817c10c05474f}} 
+\mbox{\hyperlink{classLogger}{Logger}} {\bfseries m\+\_\+logger}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{classServer}{Server}}. 
+
+Для управления сервером предназначены методы\+: Parse\+Cmd\+Line для парсинга командной строки и Initialize для инициализации и Run для запуска сервера 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classServer_a2facf2b56af4e95c599eabf9f0651fb5}\label{classServer_a2facf2b56af4e95c599eabf9f0651fb5}} 
+\index{Server@{Server}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily bool Server\+::\+Initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод Initialize для инициализации 
+
+\begin{DoxyReturn}{Возвращает}
+Метод возвращает false, если указан неверный параметр 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServer_aafaf5f6811be61fdb1845b90168f862d}\label{classServer_aafaf5f6811be61fdb1845b90168f862d}} 
+\index{Server@{Server}!ParseCmdLine@{ParseCmdLine}}
+\index{ParseCmdLine@{ParseCmdLine}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{ParseCmdLine()}{ParseCmdLine()}}
+{\footnotesize\ttfamily bool Server\+::\+Parse\+Cmd\+Line (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Метод Parse\+Cmd\+Line для парсинга 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Параметры} & командной строки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Метод возвращает false, если нарушена правильность написания аргументов 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Предупреждения}
+Вызов до инициализации 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classServer_a696259b475a6e10bd029333c07626b21}\label{classServer_a696259b475a6e10bd029333c07626b21}} 
+\index{Server@{Server}!Run@{Run}}
+\index{Run@{Run}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily int Server\+::\+Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод Run для запуска и прослушки сообщений 
+
+\begin{DoxyReturn}{Возвращает}
+Метод ничего не возвращает 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Server_8h}{Server.\+h}}\end{DoxyCompactItemize}

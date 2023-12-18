@@ -1,0 +1,6 @@
+<map id="Server" name="Server">
+<area shape="rect" id="node1" title="Класс Server." alt="" coords="175,95,239,121"/>
+<area shape="rect" id="node2" href="$classComunicator.html" title="Класс Comunicator." alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node3" href="$classUsersBase.html" title="Класс UsersBase." alt="" coords="162,5,253,32"/>
+<area shape="rect" id="node4" href="$classLogger.html" title="Класс Logger." alt="" coords="297,5,363,32"/>
+</map>
